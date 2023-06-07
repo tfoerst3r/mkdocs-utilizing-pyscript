@@ -20,7 +20,7 @@ SPDX-License-Identifier: CC-BY-4.0
 <!--===============-->
 # About the Project
 
-Github page: https://tfoerst3r.github.io/mkdocs-utilizing-pyscript/
+
 
 <!--===============-->
 <!--=== Chapter ===-->
