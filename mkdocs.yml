@@ -7,12 +7,12 @@ theme:
   sticky-navigation: true
   custom_dir: custom_theme
 
-#extra_css:
-#  - "https://pyscript.net/latest/pyscript.css"
+extra_css:
+  - "https://pyscript.net/latest/pyscript.css"
 
 extra_javascript:
   - js/extra.js
-#  - "https://pyscript.net/latest/pyscript.js"
+  - "https://pyscript.net/latest/pyscript.js"
 
 markdown_extensions:
   - attr_list  # additinal attributes
@@ -20,4 +20,5 @@ markdown_extensions:
 
 nav:
   - index.md
+  - page1.md
 

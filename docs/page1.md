@@ -1,19 +1,11 @@
 ---
-title: Home
+title: Pyscript
 ---
-
-<!------------------->
-<!----- CHAPTER ----->
-<!------------------->
-# Testing pyscript
-
-<!-- iframe src="mycode.html" height="700" width="100%" frameBorder="0"></iframe -->
-
 
 <!-- pyscript routines -->
 <div markdown>
-<py-config src="./pyscript_level0.toml"></py-config>
-<py-script src="./mycode/main.py"></py-script>
+<py-config src="../pyscript_level1.toml"></py-config>
+<py-script src="../mycode/main.py"></py-script>
 
 <!-- You dare not drink my rum! -->
 
@@ -29,3 +21,4 @@ Input Value<br>
 
 <div id="output"></div>
 </div>
+
