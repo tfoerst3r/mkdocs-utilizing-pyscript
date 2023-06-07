@@ -6,5 +6,5 @@ packages = [
 
 [[fetch]]
 files = [ "main.py", "utils.py" ]
-from = "mycode/"
-to_folder = "mycode"
+from = "../mycode/"
+to_folder = "./mycode"

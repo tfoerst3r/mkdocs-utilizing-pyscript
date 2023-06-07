@@ -10,6 +10,8 @@
       
       
       
+        <link rel="next" href="page1/">
+      
       <link rel="icon" href="assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
     
@@ -28,6 +30,8 @@
     
       
     
+    
+      <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -189,6 +193,21 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="page1/" class="md-nav__link">
+        Pyscript
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -226,20 +245,21 @@
 <!----- CHAPTER ----->
 <!------------------->
 <h1 id="testing-pyscript">Testing pyscript</h1>
-<iframe src="mycode.html" height="700" width="100%" frameBorder="0"></iframe>
+<!-- iframe src="mycode.html" height="700" width="100%" frameBorder="0"></iframe -->
 
 <!-- pyscript routines -->
-
-<!-- PAGE 
-<py-config src="../pyscript.toml"></py-config>
-<py-script src="../mycode/main.py"></py-script>
-
-Translate English into Pirate<br>
+<div>
+<p><py-config src="./pyscript_level0.toml"></py-config>
+<py-script src="./mycode/main.py"></py-script></p>
+<!-- You dare not drink my rum! -->
+<p>Translate English into Pirate<br>
 <input type="text" id="english" placeholder="Type your English in here ..."><br>
-[Translate!](#){ .md-button .md-button--primary id="english" style="padding: 0.25rem; margin-top: 0.5rem; text-align: center;" py-click="english_to_pirate()" onclick="clearBox('output')"  }
--->
+<a class="md-button md-button--primary" href="#" id="english" onclick="clearBox('output')" py-click="english_to_pirate()" style="padding: 0.25rem; margin-top: 0.5rem; text-align: center;">Translate!</a></p>
+<p>Input Value<br>
+<input type="text" id="showplot" placeholder="Type your int value ..."><br>
+<a class="md-button md-button--primary" href="#" id="showplot" onclick="clearBox('output')" py-click="plotter()" style="padding: 0.25rem; text-align: center;">Show it!</a></p>
 <div id="output"></div>
-<!-- END -->
+</div>
 
 
 
@@ -301,6 +321,8 @@ Translate English into Pirate<br>
       <script src="assets/javascripts/bundle.b4d07000.min.js"></script>
       
         <script src="js/extra.js"></script>
+      
+        <script src="https://pyscript.net/latest/pyscript.js"></script>
       
     
   </body>

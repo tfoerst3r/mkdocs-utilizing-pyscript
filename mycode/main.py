@@ -18,4 +18,3 @@ def plotter():
     figure = plot_image(radius)
     display(figure, target="output")
 
-#print("Hello there. How are you today?")
