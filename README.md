@@ -5,10 +5,6 @@ SPDX-License-Identifier: CC-BY-4.0
 -->
 
 
-<div align="center">
-  <img src="./docs/images/logo.png" alt="Logo" width="80">
-</div>
-  
 <h1 align="center">Interactive Elements of python on a mkdocs site</h1>
 <p align=center> 
 ...
