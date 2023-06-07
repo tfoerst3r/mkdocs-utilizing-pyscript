@@ -7,15 +7,12 @@ theme:
   sticky-navigation: true
   custom_dir: custom_theme
 
-extra_css:
-  - "https://pyscript.net/latest/pyscript.css"
+#extra_css:
+#  - "https://pyscript.net/latest/pyscript.css"
 
 extra_javascript:
   - js/extra.js
-  - "https://pyscript.net/latest/pyscript.js"
-  - "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-  - "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-  - "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+#  - "https://pyscript.net/latest/pyscript.js"
 
 markdown_extensions:
   - attr_list  # additinal attributes
