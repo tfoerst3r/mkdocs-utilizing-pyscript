@@ -7,7 +7,7 @@ title: Home
 <!------------------->
 # Testing pyscript
 
-<iframe src="mycode.html" height="500" width="500" ></iframe>
+<iframe src="mycode.html" height="700" width="100%" frameBorder="0"></iframe>
 
 
 <!-- pyscript routines -->
