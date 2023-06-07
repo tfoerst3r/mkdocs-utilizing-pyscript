@@ -1,13 +1,10 @@
-packages = [
-    "arrr",
-    "numpy",
-    "matplotlib"
+packages = [ 
+  "arrr", 
+  "numpy", 
+  "matplotlib" 
 ]
 
 [[fetch]]
-files = [ 
-    "utils.py",
-    "main.py"
-]
-from = 'mycode/'
-to_folder = 'mycode'
+files = [ "main.py", "utils.py" ]
+from = "mycode/"
+to_folder = "mycode"

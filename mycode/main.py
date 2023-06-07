@@ -1,31 +1,21 @@
-from mycode.utils import myplot,trans
-import matplotlib.pyplot as plt
+from mycode.utils import translate, plot_image
 
-def translate():
-    input = Element("english").element.value
-    output = trans(input)
+def english_to_pirate():
+    input_element = Element("english")
+    output_element = Element("output")
+
+    english = input_element.element.value
+    pirate = translate(english)
     
-    print(f"Input text: {input} -- Output: {output}")
+    output_element.element.innerText = pirate
 
-    # output 
-    output_div = Element("output")
-    output_div.element.innerText = output
-
-def showgraph():
-
-    radius = int(Element("showgraph").element.value)
-    print(radius, type(radius))
-    theta,r = myplot(radius)
-
-    fig, ax = plt.subplots(
-      subplot_kw = {'projection': 'polar'} 
-    )
+def plotter():
     
-    ax.plot(theta, r)
-    ax.set_rticks([0.5, 1, 1.5, 2])
-    ax.grid(True)
+    input_element = Element("showplot")
+    output_element = Element("output")
+    
+    radius = int(input_element.element.value)
+    figure = plot_image(radius)
+    display(figure, target="output")
 
-    #pyscript.write('lineplot',fig)
-    #display(fig, target="")
-    #pyscript.write('lineplot',fig)
-    display(fig, target="output")
+#print("Hello there. How are you today?")
