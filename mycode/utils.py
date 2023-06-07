@@ -6,7 +6,7 @@ def translate(english):
     return arrr.translate(english)
 
 def function(val:int):
-    r = np.arange(0, 2, 0.01)
+    r = np.arange(0, 2, 0.001)
     theta = val * np.pi * r
     return theta,r
 
