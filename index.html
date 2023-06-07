@@ -29,8 +29,6 @@
       
     
     
-      <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
-    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -228,14 +226,18 @@
 <!----- CHAPTER ----->
 <!------------------->
 <h1 id="testing-pyscript">Testing pyscript</h1>
+<iframe src="mycode.html" height="500" width="500" ></iframe>
+
 <!-- pyscript routines -->
 
-<p><py-config src="../pyscript.toml"></py-config>
-<py-script src="../mycode/main.py"></py-script></p>
-<!-- PAGE -->
-<p>Translate English into Pirate<br>
+<!-- PAGE 
+<py-config src="../pyscript.toml"></py-config>
+<py-script src="../mycode/main.py"></py-script>
+
+Translate English into Pirate<br>
 <input type="text" id="english" placeholder="Type your English in here ..."><br>
-<a class="md-button md-button--primary" href="#" id="english" onclick="clearBox('output')" py-click="english_to_pirate()" style="padding: 0.25rem; margin-top: 0.5rem; text-align: center;">Translate!</a></p>
+[Translate!](#){ .md-button .md-button--primary id="english" style="padding: 0.25rem; margin-top: 0.5rem; text-align: center;" py-click="english_to_pirate()" onclick="clearBox('output')"  }
+-->
 <div id="output"></div>
 <!-- END -->
 
@@ -299,14 +301,6 @@
       <script src="assets/javascripts/bundle.b4d07000.min.js"></script>
       
         <script src="js/extra.js"></script>
-      
-        <script src="https://pyscript.net/latest/pyscript.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
       
     
   </body>
