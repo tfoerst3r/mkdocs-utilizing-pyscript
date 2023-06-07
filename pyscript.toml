@@ -1,7 +1,5 @@
 packages = [ 
   "arrr", 
-  "numpy", 
-  "matplotlib" 
 ]
 
 [[fetch]]
